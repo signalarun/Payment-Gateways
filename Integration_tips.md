@@ -6,7 +6,7 @@
  5. https://github.com/Anas73412/Paytm , Video : https://youtu.be/6KsxBK3zWjI
  6. https://github.com/signalarun/Paytm_App_Checksum_Kit_NodeJs
  
- ## Integration Steps
+### Integration Steps
  1. Get order Id from backend
  2. Get checksum from bcakend with order id and credentials provided by Paytm backend
  
