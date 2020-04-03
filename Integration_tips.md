@@ -15,7 +15,8 @@
      Industry type.
      
      callbackurl -> https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp
- 3. Start transaction with all-in-one-sdk using the required parameters in the Paytm documentation along the previously obtained checksum    
+ 3. Start transaction with all-in-one-sdk using the required parameters in the Paytm documentation along the previously obtained checksum
+ 4. Check transaction status using transaction status API
     
  
  
