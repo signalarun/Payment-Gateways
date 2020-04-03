@@ -17,7 +17,8 @@
      callbackurl -> https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp
  3. Start transaction with all-in-one-sdk using the required parameters in the Paytm documentation along the previously obtained checksum.
      Paytm takes care of communicating with back and completing the transaction
- 4. Check transaction status using transaction status API
+ 4. Check transaction status using transaction status API of backend server and this server communicates with Paytm server to get the
+    transaction status and returns the status to the app.
     
  
  
