@@ -11,13 +11,13 @@
  1. Get test credentials from https://dashboard.paytm.com
 ### Integration Steps for Paytm all-in-one SDK
  1. Get order Id from backend
- 2. Get checksum from backend with order id and credentials provided by Paytm backend
+ 2. Get token from backend with order id and credentials provided by Paytm backend
     Parameters are :
      MID(Merchant ID from Paytm dashboard), Order Id, Customer ID, Website[From Paytm dashboard], Amount, Channel ID, Callback URL and
      Industry type.
      
      callbackurl -> https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp
- 3. Start transaction with all-in-one-sdk using the required parameters in the Paytm documentation along the previously obtained checksum.
+ 3. Start transaction with all-in-one-sdk using the required parameters in the Paytm documentation along the previously obtained token.
      Paytm takes care of communicating with back and completing the transaction
  4. Check transaction status using transaction status API of backend server and this server communicates with Paytm server to get the
     transaction status and returns the status to the app.
