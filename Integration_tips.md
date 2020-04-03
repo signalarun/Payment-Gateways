@@ -9,7 +9,12 @@
  
 ### Integration Steps
  1. Get order Id from backend
- 2. Get checksum from bcakend with order id and credentials provided by Paytm backend
+ 2. Get checksum from backend with order id and credentials provided by Paytm backend
+    Parameters are :
+     MID(Merchant ID from Paytm dashboard), Order Id, Customer ID, Website[From Paytm dashboard], Amount, Channel ID, Callback URL and
+     Industry type.
+     
+     callbackurl -> https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp
  
  
  
