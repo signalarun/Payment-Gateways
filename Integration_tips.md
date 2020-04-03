@@ -7,6 +7,8 @@
  5. https://github.com/Anas73412/Paytm , Video : https://youtu.be/6KsxBK3zWjI
  6. https://github.com/signalarun/Paytm_App_Checksum_Kit_NodeJs
  
+### Prerequisite  
+ 1. Get test credentials from http://www.dashboard.paytm.com
 ### Integration Steps for Paytm all-in-one SDK
  1. Get order Id from backend
  2. Get checksum from backend with order id and credentials provided by Paytm backend
